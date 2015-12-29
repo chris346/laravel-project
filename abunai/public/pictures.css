@@ -1,0 +1,147 @@
+
+html {
+font-family: 'Open Sans';
+}
+
+body {
+    background-image: url("abunai/grunge.jpg");
+}
+
+header{
+   height: 20px;
+   background-color: black;
+   color:white;
+   text-align: right;
+}
+
+header a {
+    color: white;
+    font-weight: 300;
+    text-decoration:none;
+}
+header span {
+    color:red;
+    margin-right: 163px;
+    margin-left: 20px;
+}
+
+/*PAGE TITLE*/
+.name {
+    flex:1;
+    margin-left:94px;
+    font-family: Open Sans;
+}
+.abunai {
+    font-size: 28px;
+    color: white;
+}
+
+.abunai2{
+    color:red;
+    font-size:22px;
+    font-weight:300;
+}
+
+.name a {
+    font-weight: 700;
+}
+
+.links{
+    flex:2;
+    margin-left:94px;
+    font-size:14px;
+}
+
+/*NAV BAR*/
+
+nav{
+    padding: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    background: linear-gradient(rgba(93,93,93,1), black); /* Standard syntax */
+}
+
+nav a {
+    padding-left:22px;
+    padding-right:22px;
+    padding-top:0px;
+    padding-bottom:0px;
+    height:0px;
+    color: white;
+    text-decoration:none;
+    position: relative;
+    margin-top: 10px;
+}
+
+.parent {
+
+    width: 1156px;
+    background-color: teal;
+    margin: 0 auto;
+}
+
+.hero {
+    
+}
+
+section {
+    width: 1156px;
+    background-color:pink;
+    display: flex;
+}
+
+section > div {
+    background-image: url("abunai/octagon.jpg");
+    width: 100%;
+    display: flex;
+    background-size: 100% 120%;
+}
+
+img {
+    width:100%;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+h1 {
+    color: red;
+}
+
+.pageTitle {
+    text-align: center;
+    font-size: 46px;
+}
+
+.content {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(0,0,0,0.4);
+    overflow: scroll;
+}
+
+.primary {
+    width: 1156px;
+    background-color: green;
+    text-align: center;
+   
+}
+.panel {
+    display:inline-block;
+    text-align: left;
+}
+
+img {
+	height: 160px;
+	width: 160px;
+	width: 160px;
+}
+footer {
+    height: 50px;
+    background-color: black;
+}
+

@@ -1,0 +1,236 @@
+html {
+font-family: 'Open Sans';
+}
+
+body {
+    background-image: url("abunai/grunge.jpg");
+}
+header{
+   height: 20px;
+   background-color: black;
+   color:white;
+   text-align: left;
+}
+
+header a {
+    color: white;
+    font-weight: 300;
+    text-decoration:none;
+}
+header span {
+    color:red;
+    margin-right: 163px;
+    margin-left: 20px;
+}
+
+.login {
+    margin-left: 520px;
+}
+
+.hello {
+    margin-left: 939px;
+    position: absolute;
+}
+
+.logout {
+    position: absolute;
+}
+
+.message {
+    position: relative;
+    width: 98px ;
+    top: -50;
+    left: 1030;
+}
+
+a:link {
+color: red;
+text-decoration: none;
+}
+
+a:active {
+    color: #F5D04C;
+}
+
+a:visited{
+    text-decoration: none; 
+    color: red;
+}
+
+nav a:visited {
+    text-decoration: none; 
+    color: white; 
+}
+/*PAGE TITLE*/
+.name {
+    flex:1;
+    margin-left:94px;
+    font-family: Open Sans;
+}
+.abunai {
+    font-size: 28px;
+    color: white;
+}
+
+.abunai2{
+    color:red;
+    font-size:22px;
+    font-weight:300;
+}
+
+.name a {
+    font-weight: 700;
+}
+
+.links{
+    flex:2;
+    margin-left:94px;
+    font-size:14px;
+}
+
+/*NAV BAR*/
+
+nav{
+    padding: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    background: linear-gradient(rgba(93,93,93,1), black); /* Standard syntax */
+}
+
+nav a {
+    padding-left:22px;
+    padding-right:22px;
+    padding-top:0px;
+    padding-bottom:0px;
+    height:0px;
+    color: white;
+    text-decoration:none;
+    position: relative;
+    margin-top: 10px;
+}
+.parent {
+    width: 1156px;
+    background-color: black;
+    margin: 0 auto;
+    height: 845px;
+}
+
+section {
+    height: 550px;
+    width: 1156px;
+    background-color:pink;
+    display: flex;
+}
+section > div {
+    background: #232323;
+    width: 100%;
+    display: flex;
+    background-size: 100% 120%;
+}
+.image {
+    display:inline;
+    flex:3;
+    background-color:green;
+    margin: 5px;
+    border-radius:5px;
+    background-color:rgba(0,0,0,0);
+}
+img {
+    width:100%;
+}
+.bg {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.pageName {
+	background-color: black;
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.pageName h1 {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.add{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.background{
+    height: 788px;
+    overflow: scroll;
+}  
+
+
+.outerPanel {
+	background-image: url("abunai/octagon.jpg");
+    background-repeat: no-repeat;
+    background-size: 1156px 633px; 
+    height: 800px;
+}
+
+.innerPanel {
+	/*background-image: url("abunai/grunge.jpg");*/
+    background-color: rgba(255,255,255,0.05);
+	height: 173px;
+	width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+    border: white solid 1px;
+    border-radius: 10px;
+
+}
+.imgHolder {
+	width:150px;
+    height: 150px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 50%;
+	border: white solid 2px;
+	overflow: hidden;
+}
+.imgHolder img {
+	height: 100%;
+}	
+.infoHolder {
+	flex: 2;
+	background-color: rgba(0,0,0,0);
+	margin: 10px;
+}
+.contentHolder {
+	flex:2;
+	background-color: rgba(0,0,0,0);
+	margin: 10px;
+}
+footer {
+    height: 50px;
+    color: red;
+    background: linear-gradient(rgba(93,93,93,1), black);
+    width: 1156px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.add {
+    font-size:20px;
+    color: white;
+    background-color: red;
+    border: white solid 1px;
+}
